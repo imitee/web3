@@ -8,7 +8,6 @@
 	<!--favicon-->
 	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
 	<!--plugins-->
-	<link href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet"/>
 	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
 	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
@@ -713,510 +712,279 @@
 		<!--start page wrapper -->
 		<div class="page-wrapper">
 			<div class="page-content">
-				<div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
-                   <div class="col">
-					 <div class="card radius-10 border-start border-0 border-3 border-info">
-						<div class="card-body">
-							<div class="d-flex align-items-center">
-								<div>
-									<p class="mb-0 text-secondary">Total Orders</p>
-									<h4 class="my-1 text-info">4805</h4>
-									<p class="mb-0 font-13">+2.5% from last week</p>
-								</div>
-								<div class="widgets-icons-2 rounded-circle bg-gradient-scooter text-white ms-auto"><i class='bx bxs-cart'></i>
-								</div>
+				<!--breadcrumb-->
+				<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+					<div class="breadcrumb-title pe-3">Forms</div>
+					<div class="ps-3">
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb mb-0 p-0">
+								<li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+								</li>
+								<li class="breadcrumb-item active" aria-current="page">Form Layouts</li>
+							</ol>
+						</nav>
+					</div>
+					<div class="ms-auto">
+						<div class="btn-group">
+							<button type="button" class="btn btn-primary">Settings</button>
+							<button type="button" class="btn btn-primary split-bg-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">	<span class="visually-hidden">Toggle Dropdown</span>
+							</button>
+							<div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-end">	<a class="dropdown-item" href="javascript:;">Action</a>
+								<a class="dropdown-item" href="javascript:;">Another action</a>
+								<a class="dropdown-item" href="javascript:;">Something else here</a>
+								<div class="dropdown-divider"></div>	<a class="dropdown-item" href="javascript:;">Separated link</a>
 							</div>
 						</div>
-					 </div>
-				   </div>
-				   <div class="col">
-					<div class="card radius-10 border-start border-0 border-3 border-danger">
-					   <div class="card-body">
-						   <div class="d-flex align-items-center">
-							   <div>
-								   <p class="mb-0 text-secondary">Total Revenue</p>
-								   <h4 class="my-1 text-danger">$84,245</h4>
-								   <p class="mb-0 font-13">+5.4% from last week</p>
-							   </div>
-							   <div class="widgets-icons-2 rounded-circle bg-gradient-bloody text-white ms-auto"><i class='bx bxs-wallet'></i>
-							   </div>
-						   </div>
-					   </div>
 					</div>
-				  </div>
-				  <div class="col">
-					<div class="card radius-10 border-start border-0 border-3 border-success">
-					   <div class="card-body">
-						   <div class="d-flex align-items-center">
-							   <div>
-								   <p class="mb-0 text-secondary">Bounce Rate</p>
-								   <h4 class="my-1 text-success">34.6%</h4>
-								   <p class="mb-0 font-13">-4.5% from last week</p>
-							   </div>
-							   <div class="widgets-icons-2 rounded-circle bg-gradient-ohhappiness text-white ms-auto"><i class='bx bxs-bar-chart-alt-2' ></i>
-							   </div>
-						   </div>
-					   </div>
-					</div>
-				  </div>
-				  <div class="col">
-					<div class="card radius-10 border-start border-0 border-3 border-warning">
-					   <div class="card-body">
-						   <div class="d-flex align-items-center">
-							   <div>
-								   <p class="mb-0 text-secondary">Total Customers</p>
-								   <h4 class="my-1 text-warning">8.4K</h4>
-								   <p class="mb-0 font-13">+8.4% from last week</p>
-							   </div>
-							   <div class="widgets-icons-2 rounded-circle bg-gradient-blooker text-white ms-auto"><i class='bx bxs-group'></i>
-							   </div>
-						   </div>
-					   </div>
-					</div>
-				  </div> 
-				</div><!--end row-->
-
+				</div>
+				<!--end breadcrumb-->
 				<div class="row">
-                   <div class="col-12 col-lg-8">
-                      <div class="card radius-10">
-						  <div class="card-body">
-							<div class="d-flex align-items-center">
-								<div>
-									<h6 class="mb-0">Sales Overview</h6>
+					<div class="col-xl-7 mx-auto">
+						<h6 class="mb-0 text-uppercase">Basic Form</h6>
+						<hr/>
+						<div class="card border-top border-0 border-4 border-primary">
+							<div class="card-body p-5">
+								<div class="card-title d-flex align-items-center">
+									<div><i class="bx bxs-user me-1 font-22 text-primary"></i>
+									</div>
+									<h5 class="mb-0 text-primary">User Registration</h5>
 								</div>
-								<div class="dropdown ms-auto">
-									<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="javascript:;">Action</a>
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Another action</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider">
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Something else here</a>
-										</li>
-									</ul>
+								<hr>
+								<form class="row g-3">
+									<div class="col-md-6">
+										<label for="inputFirstName" class="form-label">First Name</label>
+										<input type="email" class="form-control" id="inputFirstName">
+									</div>
+									<div class="col-md-6">
+										<label for="inputLastName" class="form-label">Last Name</label>
+										<input type="password" class="form-control" id="inputLastName">
+									</div>
+									<div class="col-md-6">
+										<label for="inputEmail" class="form-label">Email</label>
+										<input type="email" class="form-control" id="inputEmail">
+									</div>
+									<div class="col-md-6">
+										<label for="inputPassword" class="form-label">Password</label>
+										<input type="password" class="form-control" id="inputPassword">
+									</div>
+									<div class="col-12">
+										<label for="inputAddress" class="form-label">Address</label>
+										<textarea class="form-control" id="inputAddress" placeholder="Address..." rows="3"></textarea>
+									</div>
+									<div class="col-12">
+										<label for="inputAddress2" class="form-label">Address 2</label>
+										<textarea class="form-control" id="inputAddress2" placeholder="Address 2..." rows="3"></textarea>
+									</div>
+									<div class="col-md-6">
+										<label for="inputCity" class="form-label">City</label>
+										<input type="text" class="form-control" id="inputCity">
+									</div>
+									<div class="col-md-4">
+										<label for="inputState" class="form-label">State</label>
+										<select id="inputState" class="form-select">
+											<option selected>Choose...</option>
+											<option>...</option>
+										</select>
+									</div>
+									<div class="col-md-2">
+										<label for="inputZip" class="form-label">Zip</label>
+										<input type="text" class="form-control" id="inputZip">
+									</div>
+									<div class="col-12">
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="gridCheck">
+											<label class="form-check-label" for="gridCheck">Check me out</label>
+										</div>
+									</div>
+									<div class="col-12">
+										<button type="submit" class="btn btn-primary px-5">Register</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<h6 class="mb-0 text-uppercase">Form with icons</h6>
+						<hr/>
+						<div class="card border-top border-0 border-4 border-danger">
+							<div class="card-body p-5">
+								<div class="card-title d-flex align-items-center">
+									<div><i class="bx bxs-user me-1 font-22 text-danger"></i>
+									</div>
+									<h5 class="mb-0 text-danger">User Registration</h5>
 								</div>
+								<hr>
+								<form class="row g-3">
+									<div class="col-md-6">
+										<label for="inputLastName1" class="form-label">First Name</label>
+										<div class="input-group"> <span class="input-group-text bg-transparent"><i class='bx bxs-user'></i></span>
+											<input type="text" class="form-control border-start-0" id="inputLastName1" placeholder="First Name" />
+										</div>
+									</div>
+									<div class="col-md-6">
+										<label for="inputLastName2" class="form-label">Last Name</label>
+										<div class="input-group"> <span class="input-group-text bg-transparent"><i class='bx bxs-user'></i></span>
+											<input type="text" class="form-control border-start-0" id="inputLastName2" placeholder="Last Name" />
+										</div>
+									</div>
+									<div class="col-12">
+										<label for="inputPhoneNo" class="form-label">Phone No</label>
+										<div class="input-group"> <span class="input-group-text bg-transparent"><i class='bx bxs-microphone' ></i></span>
+											<input type="text" class="form-control border-start-0" id="inputPhoneNo" placeholder="Phone No" />
+										</div>
+									</div>
+									<div class="col-12">
+										<label for="inputEmailAddress" class="form-label">Email Address</label>
+										<div class="input-group"> <span class="input-group-text bg-transparent"><i class='bx bxs-message' ></i></span>
+											<input type="text" class="form-control border-start-0" id="inputEmailAddress" placeholder="Email Address" />
+										</div>
+									</div>
+									<div class="col-12">
+										<label for="inputChoosePassword" class="form-label">Choose Password</label>
+										<div class="input-group"> <span class="input-group-text bg-transparent"><i class='bx bxs-lock-open' ></i></span>
+											<input type="text" class="form-control border-start-0" id="inputChoosePassword" placeholder="Choose Password" />
+										</div>
+									</div>
+									<div class="col-12">
+										<label for="inputConfirmPassword" class="form-label">Confirm Password</label>
+										<div class="input-group"> <span class="input-group-text bg-transparent"><i class='bx bxs-lock' ></i></span>
+											<input type="text" class="form-control border-start-0" id="inputConfirmPassword" placeholder="Confirm Password" />
+										</div>
+									</div>
+									<div class="col-12">
+										<label for="inputAddress3" class="form-label">Address</label>
+										<textarea class="form-control" id="inputAddress3" placeholder="Enter Address" rows="3"></textarea>
+									</div>
+									<div class="col-12">
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="gridCheck2">
+											<label class="form-check-label" for="gridCheck2">Check me out</label>
+										</div>
+									</div>
+									<div class="col-12">
+										<button type="submit" class="btn btn-danger px-5">Register</button>
+									</div>
+								</form>
 							</div>
-							<div class="d-flex align-items-center ms-auto font-13 gap-2 my-3">
-								<span class="border px-1 rounded cursor-pointer"><i class="bx bxs-circle me-1" style="color: #14abef"></i>Sales</span>
-								<span class="border px-1 rounded cursor-pointer"><i class="bx bxs-circle me-1" style="color: #ffc107"></i>Visits</span>
-							</div>
-							<div class="chart-container-1">
-								<canvas id="chart1"></canvas>
-							  </div>
-						  </div>
-						  <div class="row row-cols-1 row-cols-md-3 row-cols-xl-3 g-0 row-group text-center border-top">
-							<div class="col">
-							  <div class="p-3">
-								<h5 class="mb-0">24.15M</h5>
-								<small class="mb-0">Overall Visitor <span> <i class="bx bx-up-arrow-alt align-middle"></i> 2.43%</span></small>
-							  </div>
-							</div>
-							<div class="col">
-							  <div class="p-3">
-								<h5 class="mb-0">12:38</h5>
-								<small class="mb-0">Visitor Duration <span> <i class="bx bx-up-arrow-alt align-middle"></i> 12.65%</span></small>
-							  </div>
-							</div>
-							<div class="col">
-							  <div class="p-3">
-								<h5 class="mb-0">639.82</h5>
-								<small class="mb-0">Pages/Visit <span> <i class="bx bx-up-arrow-alt align-middle"></i> 5.62%</span></small>
-							  </div>
-							</div>
-						  </div>
-					  </div>
-				   </div>
-				   <div class="col-12 col-lg-4">
-                       <div class="card radius-10">
-						   <div class="card-body">
-							<div class="d-flex align-items-center">
-								<div>
-									<h6 class="mb-0">Trending Products</h6>
+						</div>
+						<h6 class="mb-0 text-uppercase">Login Form</h6>
+						<hr/>
+						<div class="card border-top border-0 border-4 border-dark">
+							<div class="card-body p-5">
+								<div class="card-title text-center"><i class="bx bxs-user-circle text-dark font-50"></i>
+									<h5 class="mb-5 mt-2 text-dark">User Login</h5>
 								</div>
-								<div class="dropdown ms-auto">
-									<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="javascript:;">Action</a>
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Another action</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider">
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Something else here</a>
-										</li>
-									</ul>
-								</div>
+								<hr>
+								<form class="row g-3">
+									<div class="col-12">
+										<label for="inputLastEnterUsername" class="form-label">Enter Username</label>
+										<div class="input-group input-group-lg"> <span class="input-group-text bg-transparent"><i class='bx bxs-user'></i></span>
+											<input type="text" class="form-control border-start-0" id="inputLastEnterUsername" placeholder="Enter Username" />
+										</div>
+									</div>
+									<div class="col-12">
+										<label for="inputLastEnterPassword" class="form-label">Enter Password</label>
+										<div class="input-group input-group-lg"> <span class="input-group-text bg-transparent"><i class='bx bxs-lock-open'></i></span>
+											<input type="text" class="form-control border-start-0" id="inputLastEnterPassword" placeholder="Enter Password" />
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="gridCheck3">
+											<label class="form-check-label" for="gridCheck3">Check me out</label>
+										</div>
+									</div>
+									<div class="col-md-6 text-end">	<a href="javascript:;">Forgot Password ?</a>
+									</div>
+									<div class="col-12">
+										<div class="d-grid">
+											<button type="submit" class="btn btn-dark btn-lg px-5"><i class='bx bxs-lock-open'></i>Login</button>
+										</div>
+									</div>
+									<hr/>
+									<div class="col-12 text-center">
+										<p class="mb-0">or Sign in with:</p>
+									</div>
+									<div class="col-12">
+										<div class="d-grid gap-2">
+											<button type="submit" class="btn btn-facebook btn-lg px-5"><i class='bx bxl-facebook'></i>Login with facebook</button>
+											<button type="submit" class="btn btn-light btn-lg px-5"><i class='bx bxl-google'></i>Login with Google</button>
+										</div>
+									</div>
+								</form>
 							</div>
-							<div class="chart-container-2 mt-4">
-								<canvas id="chart2"></canvas>
-							  </div>
-						   </div>
-						   <ul class="list-group list-group-flush">
-							<li class="list-group-item d-flex bg-transparent justify-content-between align-items-center">Jeans <span class="badge bg-success rounded-pill">25</span>
-							</li>
-							<li class="list-group-item d-flex bg-transparent justify-content-between align-items-center">T-Shirts <span class="badge bg-danger rounded-pill">10</span>
-							</li>
-							<li class="list-group-item d-flex bg-transparent justify-content-between align-items-center">Shoes <span class="badge bg-primary rounded-pill">65</span>
-							</li>
-							<li class="list-group-item d-flex bg-transparent justify-content-between align-items-center">Lingerie <span class="badge bg-warning text-dark rounded-pill">14</span>
-							</li>
-						</ul>
-					   </div>
-				   </div>
-				</div><!--end row-->
-
-				 <div class="card radius-10">
-                         <div class="card-body">
-							<div class="d-flex align-items-center">
-								<div>
-									<h6 class="mb-0">Recent Orders</h6>
-								</div>
-								<div class="dropdown ms-auto">
-									<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="javascript:;">Action</a>
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Another action</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider">
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Something else here</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						 <div class="table-responsive">
-						   <table class="table align-middle mb-0">
-							<thead class="table-light">
-							 <tr>
-							   <th>Product</th>
-							   <th>Photo</th>
-							   <th>Product ID</th>
-							   <th>Status</th>
-							   <th>Amount</th>
-							   <th>Date</th>
-							   <th>Shipping</th>
-							 </tr>
-							 </thead>
-							 <tbody><tr>
-							  <td>Iphone 5</td>
-							  <td><img src="assets/images/products/01.png" class="product-img-2" alt="product img"></td>
-							  <td>#9405822</td>
-							  <td><span class="badge bg-gradient-quepal text-white shadow-sm w-100">Paid</span></td>
-							  <td>$1250.00</td>
-							  <td>03 Feb 2020</td>
-							  <td><div class="progress" style="height: 6px;">
-									<div class="progress-bar bg-gradient-quepal" role="progressbar" style="width: 100%"></div>
-								  </div></td>
-							 </tr>
-		  
-							 <tr>
-							  <td>Earphone GL</td>
-							  <td><img src="assets/images/products/02.png" class="product-img-2" alt="product img"></td>
-							  <td>#8304620</td>
-							  <td><span class="badge bg-gradient-blooker text-white shadow-sm w-100">Pending</span></td>
-							  <td>$1500.00</td>
-							  <td>05 Feb 2020</td>
-							  <td><div class="progress" style="height: 6px;">
-									<div class="progress-bar bg-gradient-blooker" role="progressbar" style="width: 60%"></div>
-								  </div></td>
-							 </tr>
-		  
-							 <tr>
-							  <td>HD Hand Camera</td>
-							  <td><img src="assets/images/products/03.png" class="product-img-2" alt="product img"></td>
-							  <td>#4736890</td>
-							  <td><span class="badge bg-gradient-bloody text-white shadow-sm w-100">Failed</span></td>
-							  <td>$1400.00</td>
-							  <td>06 Feb 2020</td>
-							  <td><div class="progress" style="height: 6px;">
-									<div class="progress-bar bg-gradient-bloody" role="progressbar" style="width: 70%"></div>
-								  </div></td>
-							 </tr>
-		  
-							 <tr>
-							  <td>Clasic Shoes</td>
-							  <td><img src="assets/images/products/04.png" class="product-img-2" alt="product img"></td>
-							  <td>#8543765</td>
-							  <td><span class="badge bg-gradient-quepal text-white shadow-sm w-100">Paid</span></td>
-							  <td>$1200.00</td>
-							  <td>14 Feb 2020</td>
-							  <td><div class="progress" style="height: 6px;">
-									<div class="progress-bar bg-gradient-quepal" role="progressbar" style="width: 100%"></div>
-								  </div></td>
-							 </tr>
-							 <tr>
-							  <td>Sitting Chair</td>
-							  <td><img src="assets/images/products/06.png" class="product-img-2" alt="product img"></td>
-							  <td>#9629240</td>
-							  <td><span class="badge bg-gradient-blooker text-white shadow-sm w-100">Pending</span></td>
-							  <td>$1500.00</td>
-							  <td>18 Feb 2020</td>
-							  <td><div class="progress" style="height: 6px;">
-									<div class="progress-bar bg-gradient-blooker" role="progressbar" style="width: 60%"></div>
-								  </div></td>
-							 </tr>
-							 <tr>
-							  <td>Hand Watch</td>
-							  <td><img src="assets/images/products/05.png" class="product-img-2" alt="product img"></td>
-							  <td>#8506790</td>
-							  <td><span class="badge bg-gradient-bloody text-white shadow-sm w-100">Failed</span></td>
-							  <td>$1800.00</td>
-							  <td>21 Feb 2020</td>
-							  <td><div class="progress" style="height: 6px;">
-									<div class="progress-bar bg-gradient-bloody" role="progressbar" style="width: 40%"></div>
-								  </div></td>
-							 </tr>
-						    </tbody>
-						  </table>
-						  </div>
-						 </div>
+						</div>
 					</div>
-
-
-					<div class="row">
-						<div class="col-12 col-lg-7 col-xl-8 d-flex">
-						  <div class="card radius-10 w-100">
-							<div class="card-header bg-transparent">
-								<div class="d-flex align-items-center">
-									<div>
-										<h6 class="mb-0">Recent Orders</h6>
+				</div>
+				<!--end row-->
+				<div class="row">
+					<div class="col-xl-9 mx-auto">
+						<h6 class="mb-0 text-uppercase">Horizontal Form</h6>
+						<hr/>
+						<div class="card border-top border-0 border-4 border-info">
+							<div class="card-body">
+								<div class="border p-4 rounded">
+									<div class="card-title d-flex align-items-center">
+										<div><i class="bx bxs-user me-1 font-22 text-info"></i>
+										</div>
+										<h5 class="mb-0 text-info">User Registration</h5>
 									</div>
-									<div class="dropdown ms-auto">
-										<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
-										</a>
-										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="javascript:;">Action</a>
-											</li>
-											<li><a class="dropdown-item" href="javascript:;">Another action</a>
-											</li>
-											<li>
-												<hr class="dropdown-divider">
-											</li>
-											<li><a class="dropdown-item" href="javascript:;">Something else here</a>
-											</li>
-										</ul>
+									<hr/>
+									<div class="row mb-3">
+										<label for="inputEnterYourName" class="col-sm-3 col-form-label">Enter Your Name</label>
+										<div class="col-sm-9">
+											<input type="text" class="form-control" id="inputEnterYourName" placeholder="Enter Your Name">
+										</div>
+									</div>
+									<div class="row mb-3">
+										<label for="inputPhoneNo2" class="col-sm-3 col-form-label">Phone No</label>
+										<div class="col-sm-9">
+											<input type="text" class="form-control" id="inputPhoneNo2" placeholder="Phone No">
+										</div>
+									</div>
+									<div class="row mb-3">
+										<label for="inputEmailAddress2" class="col-sm-3 col-form-label">Email Address</label>
+										<div class="col-sm-9">
+											<input type="email" class="form-control" id="inputEmailAddress2" placeholder="Email Address">
+										</div>
+									</div>
+									<div class="row mb-3">
+										<label for="inputChoosePassword2" class="col-sm-3 col-form-label">Choose Password</label>
+										<div class="col-sm-9">
+											<input type="email" class="form-control" id="inputChoosePassword2" placeholder="Choose Password">
+										</div>
+									</div>
+									<div class="row mb-3">
+										<label for="inputConfirmPassword2" class="col-sm-3 col-form-label">Confirm Password</label>
+										<div class="col-sm-9">
+											<input type="email" class="form-control" id="inputConfirmPassword2" placeholder="Confirm Password">
+										</div>
+									</div>
+									<div class="row mb-3">
+										<label for="inputAddress4" class="col-sm-3 col-form-label">Address</label>
+										<div class="col-sm-9">
+											<textarea class="form-control" id="inputAddress4" rows="3" placeholder="Address"></textarea>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<label for="inputAddress4" class="col-sm-3 col-form-label"></label>
+										<div class="col-sm-9">
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="gridCheck4">
+												<label class="form-check-label" for="gridCheck4">Check me out</label>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<label class="col-sm-3 col-form-label"></label>
+										<div class="col-sm-9">
+											<button type="submit" class="btn btn-info px-5">Register</button>
+										</div>
 									</div>
 								</div>
-							   </div>
-							 <div class="card-body">
-								<div class="row">
-								  <div class="col-lg-7 col-xl-8 border-end">
-									 <div id="geographic-map-2"></div>
-								  </div>
-								  <div class="col-lg-5 col-xl-4">
-			                       
-									<div class="mb-4">
-									<p class="mb-2"><i class="flag-icon flag-icon-us me-1"></i> USA <span class="float-end">70%</span></p>
-									<div class="progress" style="height: 7px;">
-										 <div class="progress-bar bg-primary progress-bar-striped" role="progressbar" style="width: 70%"></div>
-									 </div>
-									</div>
-			   
-									<div class="mb-4">
-									 <p class="mb-2"><i class="flag-icon flag-icon-ca me-1"></i> Canada <span class="float-end">65%</span></p>
-									 <div class="progress" style="height: 7px;">
-										 <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" style="width: 65%"></div>
-									 </div>
-									</div>
-			   
-									<div class="mb-4">
-									 <p class="mb-2"><i class="flag-icon flag-icon-gb me-1"></i> England <span class="float-end">60%</span></p>
-									 <div class="progress" style="height: 7px;">
-										 <div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width: 60%"></div>
-									   </div>
-									</div>
-			   
-									<div class="mb-4">
-									 <p class="mb-2"><i class="flag-icon flag-icon-au me-1"></i> Australia <span class="float-end">55%</span></p>
-									 <div class="progress" style="height: 7px;">
-										 <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 55%"></div>
-									   </div>
-									</div>
-			   
-									<div class="mb-4">
-									 <p class="mb-2"><i class="flag-icon flag-icon-in me-1"></i> India <span class="float-end">50%</span></p>
-									 <div class="progress" style="height: 7px;">
-										 <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 50%"></div>
-									   </div>
-									</div>
-
-									<div class="mb-0">
-									   <p class="mb-2"><i class="flag-icon flag-icon-cn me-1"></i> China <span class="float-end">45%</span></p>
-									   <div class="progress" style="height: 7px;">
-										   <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width: 45%"></div>
-										 </div>
-									</div>
-
-								  </div>
-								</div>
-							 </div>
-						   </div>
+							</div>
 						</div>
-			   
-						<div class="col-12 col-lg-5 col-xl-4 d-flex">
-							<div class="card w-100 radius-10">
-						     <div class="card-body">
-							  <div class="card radius-10 border shadow-none">
-								<div class="card-body">
-									<div class="d-flex align-items-center">
-										<div>
-											<p class="mb-0 text-secondary">Total Likes</p>
-											<h4 class="my-1">45.6M</h4>
-											<p class="mb-0 font-13">+6.2% from last week</p>
-										</div>
-										<div class="widgets-icons-2 bg-gradient-cosmic text-white ms-auto"><i class='bx bxs-heart-circle'></i>
-										</div>
-									</div>
-								</div>
-							 </div>
-							 <div class="card radius-10 border shadow-none">
-								<div class="card-body">
-									<div class="d-flex align-items-center">
-										<div>
-											<p class="mb-0 text-secondary">Comments</p>
-											<h4 class="my-1">25.6K</h4>
-											<p class="mb-0 font-13">+3.7% from last week</p>
-										</div>
-										<div class="widgets-icons-2 bg-gradient-ibiza text-white ms-auto"><i class='bx bxs-comment-detail'></i>
-										</div>
-									</div>
-								</div>
-							 </div>
-							 <div class="card radius-10 mb-0 border shadow-none">
-								<div class="card-body">
-									<div class="d-flex align-items-center">
-										<div>
-											<p class="mb-0 text-secondary">Total Shares</p>
-											<h4 class="my-1">85.4M</h4>
-											<p class="mb-0 font-13">+4.6% from last week</p>
-										</div>
-										<div class="widgets-icons-2 bg-gradient-moonlit text-white ms-auto"><i class='bx bxs-share-alt'></i>
-										</div>
-									</div>
-								</div>
-							  </div>
-							 </div>
-
-							</div>
-			   
-						</div>
-					 </div><!--end row-->
-
-					 <div class="row row-cols-1 row-cols-lg-3">
-						 <div class="col d-flex">
-                           <div class="card radius-10 w-100">
-							   <div class="card-body">
-								<p class="font-weight-bold mb-1 text-secondary">Weekly Revenue</p>
-								<div class="d-flex align-items-center mb-4">
-									<div>
-										<h4 class="mb-0">$89,540</h4>
-									</div>
-									<div class="">
-										<p class="mb-0 align-self-center font-weight-bold text-success ms-2">4.4% <i class="bx bxs-up-arrow-alt mr-2"></i>
-										</p>
-									</div>
-								</div>
-								<div class="chart-container-0">
-									<canvas id="chart3"></canvas>
-								  </div>
-							   </div>
-						   </div>
-						 </div>
-						 <div class="col d-flex">
-							<div class="card radius-10 w-100">
-								<div class="card-header bg-transparent">
-									<div class="d-flex align-items-center">
-										<div>
-											<h6 class="mb-0">Orders Summary</h6>
-										</div>
-										<div class="dropdown ms-auto">
-											<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
-											</a>
-											<ul class="dropdown-menu">
-												<li><a class="dropdown-item" href="javascript:;">Action</a>
-												</li>
-												<li><a class="dropdown-item" href="javascript:;">Another action</a>
-												</li>
-												<li>
-													<hr class="dropdown-divider">
-												</li>
-												<li><a class="dropdown-item" href="javascript:;">Something else here</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="chart-container-1">
-										<canvas id="chart4"></canvas>
-									  </div>
-								</div>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item d-flex bg-transparent justify-content-between align-items-center">Completed <span class="badge bg-gradient-quepal rounded-pill">25</span>
-									</li>
-									<li class="list-group-item d-flex bg-transparent justify-content-between align-items-center">Pending <span class="badge bg-gradient-ibiza rounded-pill">10</span>
-									</li>
-									<li class="list-group-item d-flex bg-transparent justify-content-between align-items-center">Process <span class="badge bg-gradient-deepblue rounded-pill">65</span>
-									</li>
-								</ul>
-							</div>
-						  </div>
-						  <div class="col d-flex">
-							<div class="card radius-10 w-100">
-								 <div class="card-header bg-transparent">
-									<div class="d-flex align-items-center">
-										<div>
-											<h6 class="mb-0">Top Selling Categories</h6>
-										</div>
-										<div class="dropdown ms-auto">
-											<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
-											</a>
-											<ul class="dropdown-menu">
-												<li><a class="dropdown-item" href="javascript:;">Action</a>
-												</li>
-												<li><a class="dropdown-item" href="javascript:;">Another action</a>
-												</li>
-												<li>
-													<hr class="dropdown-divider">
-												</li>
-												<li><a class="dropdown-item" href="javascript:;">Something else here</a>
-												</li>
-											</ul>
-										</div>
-									 </div>
-								 </div>
-								<div class="card-body">
-								   <div class="chart-container-0">
-									 <canvas id="chart5"></canvas>
-								   </div>
-								</div>
-								<div class="row row-group border-top g-0">
-									<div class="col">
-										<div class="p-3 text-center">
-											<h4 class="mb-0 text-danger">$45,216</h4>
-											<p class="mb-0">Clothing</p>
-										</div>
-									</div>
-									<div class="col">
-										<div class="p-3 text-center">
-											<h4 class="mb-0 text-success">$68,154</h4>
-											<p class="mb-0">Electronic</p>
-										</div>
-									 </div>
-								</div><!--end row-->
-							</div>
-						  </div>
-					 </div><!--end row-->
-
+					</div>
+				</div>
+				<!--end row-->
 			</div>
 		</div>
 		<!--end page wrapper -->
@@ -1333,20 +1101,8 @@
 	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
 	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
 	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-	<script src="assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
-    <script src="assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
-	<script src="assets/plugins/chartjs/js/Chart.min.js"></script>
-	<script src="assets/plugins/chartjs/js/Chart.extension.js"></script>
-	<script src="assets/js/index.js"></script>
 	<!--app JS-->
 	<script src="assets/js/app.js"></script>
-<style>
-.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
-</style>
-<div class="copyrights">
-	Collect from <a href="http://www.cssmoban.com/"  title="网站模板">模板之家</a>
-	<a href="https://www.chazidian.com/"  title="查字典">查字典</a>
-</div>
 </body>
 
 </html>
